@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons>
+      <ion-button style="background-color: white; color: darkorange;">
+        Toko Saya
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar color="warning" style="height: 100px;">  
+    <ion-item color="warning" lines="none">
+      <ion-icon name="contact" style="font-size: 500%; padding-right: 10px;"></ion-icon>
+      <ion-label>
+        <h1>Haikal Rizky</h1>
+        <p>Mau jajan apalagi ya hari ini ?</p>
+      </ion-label>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>Ganti Status</ion-label>
+      <ion-icon name="information-circle-outline" style="padding-left: 5px;"></ion-icon>
+    </ion-item>
+    <ion-item (click)="logout()" >
+      <ion-label>Log Out</ion-label>
+      <ion-icon name="log-out" style="padding-left: 5px;"></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>

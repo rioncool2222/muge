@@ -1,0 +1,8 @@
+{
+  "name": "MUGEAPP",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "a8fd1169"
+}

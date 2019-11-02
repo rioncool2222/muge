@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar style="height: 150px;" color="warning">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-title style="text-align: center;" color="warning">LOGIN</ion-title>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item lines="none" slot="end" style="text-align: end;">
+      <ion-label style="padding-right: 10px;">Ingat saya</ion-label>
+      <ion-checkbox checked="true" color="warning"></ion-checkbox>
+    </ion-item>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" color="light" (click)="daftar()">DAFTAR</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button expand="block" color="warning" (click)="login()">MASUK</ion-button>
+        </ion-col>
+      </ion-row>
+
+    <ion-item lines="none">
+        <ion-buttons slot="end">
+          <ion-button>
+            Lupa Password ?
+          </ion-button>
+        </ion-buttons>
+      </ion-item>
+
+    </ion-list>
+
+  
+
+
+    
+
+    <p style="text-align: center;">atau login dengan</p>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" color="primary">
+          <ion-icon name="logo-facebook" style="padding-right: 5px;"></ion-icon>
+          <ion-label>FACEBOOK</ion-label>
+        </ion-button>
+      </ion-col>
+
+      <ion-col>
+        <ion-button expand="block" color="danger">
+          <ion-icon name="logo-googleplus" style="padding-right: 5px;"></ion-icon>
+          <ion-label>GOOGLE</ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  
+
+</ion-content>
